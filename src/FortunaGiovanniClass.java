@@ -23,7 +23,8 @@ public class FortunaGiovanniClass {
 	public int fortunaMet(int s, int f) {
 		int r=0;
 		for(int i=1; i<f; i++) {
-			r=r+r;
+			//ERRORE CORRETTO
+			r=s*i*f;
 		}
 		return r;
 		}
