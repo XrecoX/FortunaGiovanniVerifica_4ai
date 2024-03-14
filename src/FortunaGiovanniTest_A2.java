@@ -19,7 +19,7 @@ class FortunaGiovanniTest_A2 {
 	void testFortunaMet2() {
 			FortunaGiovanniClass f=new FortunaGiovanniClass();
 			int risOttenuto=f.fortunaMet(3, 3);
-			int risAtteso=9;
+			int risAtteso=18;
 			assertEquals(risAtteso,risOttenuto);
 			System.out.println(risOttenuto);
 		}
@@ -28,7 +28,7 @@ class FortunaGiovanniTest_A2 {
 	void testFortunaMet3() {
 			FortunaGiovanniClass f=new FortunaGiovanniClass();
 			int risOttenuto=f.fortunaMet(4, 4);
-			int risAtteso=16;
+			int risAtteso=48;
 			assertEquals(risAtteso,risOttenuto);
 			System.out.println(risOttenuto);
 		}

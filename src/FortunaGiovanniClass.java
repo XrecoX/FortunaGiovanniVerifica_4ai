@@ -40,7 +40,7 @@ public class FortunaGiovanniClass {
 	 */
 	public static void main(String[] args) {
 		FortunaGiovanniClass p=new FortunaGiovanniClass();
-		System.out.println("il risultato è: "+p.fortunaMet(5, 7));
+		System.out.println("il risultato è: "+p.fortunaMet(3, 3));
 	}
 	}
 
